@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Your own data: device databases, their backups, real IP tables and sweeps.
+# The made-up ones the tests use live in tests/fixtures/ and are committed.
+/devices.json
+*.bak
+*.xlsx
+*.xlsm
+!tests/fixtures/*.xlsx
+/sweep*.json
+screenshots/
+
+# Editor and OS clutter
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

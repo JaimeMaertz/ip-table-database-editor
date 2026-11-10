@@ -1,0 +1,44 @@
+{
+    "av_manufacturers": [
+        "AMX", "Atlona", "Audinate", "Barco", "Biamp", "Bose", "BrightSign", "Christie", "Cisco", "ClearOne",
+        "Crestron", "Crown", "Epson", "Extron", "Harman", "IAdea", "Icron", "K-Array", "Kramer",
+        "LG", "Lutron", "Marshall", "MOTU", "NEC", "Netgear", "Panasonic", "Poly", "QSC", "Q-SYS", "Rauland-Borg",
+        "Samsung", "Sharp", "Shure", "Sony", "Soundcraft", "Symetrix", "TP-Link", "Vaddio", "ViewSonic",
+        "WilliamsAV", "Yamaha", "Zoom"
+    ],
+    "roles": [
+        ["NVX.*-E\\d|NVX-E|NVX.*ENC|DM-TX", "Encoder"],
+        ["NVX.*-D\\d|NVX-D|NVX.*DEC|DM-RMC", "Decoder"],
+        ["NVX-3[56]\\d", "NVX"],
+        ["\\bCP[34]N?\\b|\\bRMC[34]\\b|\\bPRO[34]\\b|\\bAV[34]\\b|\\bMC[34]\\b|IPCP|IPL", "Processor"],
+        ["\\bT[SP]W?-\\d|\\bTS-\\d|\\bTSW|TLP", "Touch Panel"],
+        ["MD\\s?\\d+X\\d+|DM-MD|DMPS|CrossPoint|DXP", "Video Switcher"],
+        ["MXA\\s?-?9\\d0|MXA\\s?-?710|MXA\\s?-?310", "Ceiling Mic"],
+        ["MXWAP", "Mic Access Point"],
+        ["MXWNDX|MXWNCS", "Mic Charger"],
+        ["ULXD4|QLXD4|SLXD4|AD4", "Wireless Mic Receiver"],
+        ["ANIUSB|ANI\\d", "Audio Interface"],
+        ["P300|Tesira|Forte|Server-IO|DAN-1|Q-SYS Core|Core \\d", "DSP"],
+        ["EX-UBT|USB-EXT", "USB Interface"],
+        ["UC-C|UC-B|UC-M|Flex", "Codec"],
+        ["Clickshare|CX\\d0", "ClickShare"],
+        ["PC-\\d+|PWR COND", "Power Conditioner"],
+        ["Projector|PowerLite|\\bEB-", "Projector"],
+        ["Display|\\bUH5|\\bFW\\d", "Display"],
+        ["Scheduler|EP\\d{4}", "Scheduler"],
+        ["BrightSign|HD\\d{4}|XT\\d{4}", "Media Player"],
+        ["CV\\d{3}|PTZ|Camera", "Camera"],
+        ["M4250|GSM\\d|CBS\\d|SG\\d|C1300|Catalyst|Switch", "Switch"]
+    ],
+    "oem_ouis": {
+        "Biamp": ["Audinate", "Rauland-Borg"],
+        "Crestron": ["Dell", "Icron"],
+        "Crown": ["Soundcraft", "Harman"],
+        "K-Array": ["Raspberry Pi"],
+        "MOTU": ["Mark of the Unicorn"],
+        "Shure": ["Audinate"],
+        "WilliamsAV": ["Williams Sound"],
+        "Yamaha": ["Audinate"],
+        "ViewSonic": ["IAdea"]
+    }
+}

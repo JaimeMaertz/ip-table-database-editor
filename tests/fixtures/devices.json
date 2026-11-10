@@ -1,0 +1,67 @@
+[
+  {
+    "mac": "28:94:01:00:10:01",
+    "name": "B1-10X-Switch",
+    "model": "M4250-26G4XF-POE+",
+    "jobsite": "Example Campus B1"
+  },
+  {
+    "mac": "C4:42:68:00:20:01",
+    "name": "B1-10X-Processor",
+    "model": "RMC4",
+    "jobsite": "Example Campus B1"
+  },
+  {
+    "mac": "78:45:01:00:30:01",
+    "name": "B1-10X-Tesira",
+    "model": "X400",
+    "jobsite": "Example Campus B1"
+  },
+  {
+    "mac": "C4:42:68:00:40:01",
+    "name": "B1-101-Wall-Encoder",
+    "model": "NVX E30",
+    "jobsite": "Example Campus B1"
+  },
+  {
+    "mac": "C4:42:68:00:40:02",
+    "name": "B1-101-Encoder",
+    "model": "NVX E30",
+    "jobsite": "Example Campus B1"
+  },
+  {
+    "mac": "00:0E:DD:00:50:01",
+    "name": "B1-101-Ceiling-Mic",
+    "model": "MXA920",
+    "jobsite": "Example Campus B1"
+  },
+  {
+    "mac": "00:23:A8:00:60:01",
+    "name": "B1-101-PTZ-Camera",
+    "model": "CV605",
+    "jobsite": "Example Campus B1"
+  },
+  {
+    "mac": "C4:42:68:00:70:01",
+    "name": "B1-103-Touch-Panel",
+    "model": "TSW 770",
+    "jobsite": "Example Campus B1"
+  },
+  {
+    "mac": "C4:42:68:00:C0:07",
+    "name": "104-Touch-Panel",
+    "model": "TSW-770"
+  },
+  {
+    "mac": "C4:42:68:00:FE:47",
+    "name": "Lab Touch Panel",
+    "model": "TSW-770",
+    "jobsite": "Example Lab"
+  },
+  {
+    "mac": "00:10:7F:AA:00:01",
+    "name": "Lab Processor",
+    "model": "CP4N",
+    "jobsite": "Example Lab"
+  }
+]

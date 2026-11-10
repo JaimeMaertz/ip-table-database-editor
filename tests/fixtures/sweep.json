@@ -1,0 +1,83 @@
+{
+  "hosts": [
+    {
+      "ip": "172.22.0.10",
+      "replied": true,
+      "rtt_ms": 0.6,
+      "mac": "C4:42:68:00:20:01",
+      "manufacturer": "Crestron Electronics, Inc.",
+      "name": "B1-10X-Processor",
+      "model": "RMC4",
+      "jobsite": "Example Campus B1"
+    },
+    {
+      "ip": "172.22.0.9",
+      "replied": true,
+      "rtt_ms": 1.2,
+      "mac": "00:23:A8:00:60:01",
+      "manufacturer": "Marvell Technology Group Ltd.",
+      "name": "B1-101-PTZ-Camera",
+      "model": "CV605",
+      "jobsite": "Example Campus B1"
+    },
+    {
+      "ip": "172.22.0.40",
+      "replied": true,
+      "rtt_ms": 0.4,
+      "mac": "C4:42:68:00:70:01",
+      "manufacturer": "Crestron Electronics, Inc."
+    },
+    {
+      "ip": "172.22.0.31",
+      "replied": true,
+      "rtt_ms": 0.8,
+      "mac": "00:10:7F:12:34:56",
+      "manufacturer": "CRESTRON ELECTRONICS, INC."
+    },
+    {
+      "ip": "172.22.0.32",
+      "replied": true,
+      "rtt_ms": 0.9,
+      "mac": "00:10:7F:12:34:57",
+      "manufacturer": "CRESTRON ELECTRONICS, INC."
+    },
+    {
+      "ip": "172.22.0.50",
+      "replied": false,
+      "mac": "00:0E:DD:AA:BB:01",
+      "manufacturer": "SHURE INCORPORATED"
+    },
+    {
+      "ip": "172.22.0.61",
+      "replied": true,
+      "rtt_ms": 2.1,
+      "mac": "F8:B4:6A:12:34:56",
+      "manufacturer": "Hewlett Packard"
+    },
+    {
+      "ip": "172.22.0.62",
+      "replied": true,
+      "rtt_ms": 2.0,
+      "mac": "F8:B4:6A:12:34:56",
+      "manufacturer": "Hewlett Packard"
+    },
+    {
+      "ip": "172.22.0.70",
+      "replied": true,
+      "rtt_ms": 3.3,
+      "mac": "DA:A1:19:00:00:01",
+      "manufacturer": "(private address)"
+    },
+    {
+      "ip": "10.1.1.5",
+      "replied": true,
+      "rtt_ms": 9.5
+    }
+  ],
+  "targets": 254,
+  "answered": 10,
+  "arp_cleared": true,
+  "skipped": [
+    "172.22.0.200"
+  ]
+}
