@@ -211,7 +211,7 @@ nothing outside this repository.
 ## Related tools
 
 - [pinger](https://github.com/JaimeMaertz/pinger): the subnet sweep and the database's reader
-- [netdiagram](https://github.com/JaimeMaertz/net-diagram): draws switches and devices, named from the same database
+- [net-diagram](https://github.com/JaimeMaertz/net-diagram): draws switches and devices, named from the same database
 - [ip-switcher](https://github.com/JaimeMaertz/ip-switcher): a tray app for switching your adapter between DHCP and static presets
 
 ## License
