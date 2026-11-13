@@ -213,6 +213,7 @@ nothing outside this repository.
 - [pinger](https://github.com/JaimeMaertz/pinger): the subnet sweep and the database's reader
 - [net-diagram](https://github.com/JaimeMaertz/net-diagram): draws switches and devices, named from the same database
 - [ip-switcher](https://github.com/JaimeMaertz/ip-switcher): a tray app for switching your adapter between DHCP and static presets
+- [net-watch](https://github.com/JaimeMaertz/net-watch): watches devices come and go, and sends the ones to name here
 
 ## License
 
